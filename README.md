@@ -13,7 +13,7 @@ NestJS REST API for the Patlix workspace dashboard: authentication (JWT) and pro
 ## Run
 
 ```bash
-npx nx serve api
+npx nx serve patlix-api
 # API:      http://localhost:3000/api
 # Swagger:  http://localhost:3000/api/docs
 ```
@@ -63,7 +63,7 @@ src/
 ## Quality
 
 ```bash
-npx nx lint api
-npx nx test api
-npx nx build api
+npx nx lint patlix-api
+npx nx test patlix-api
+npx nx build patlix-api
 ```

@@ -18,7 +18,7 @@ import { Project } from './entities/project.entity';
   imports: [
     ConfigModule.forRoot({
       isGlobal: true,
-      envFilePath: ['apps/api/.env', '.env'],
+      envFilePath: ['apps/patlix-api/.env', '.env'],
     }),
     TypeOrmModule.forRoot({
       type: 'postgres',
